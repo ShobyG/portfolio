@@ -1,20 +1,16 @@
+import AnimatedText from "./AnimatedText";
+import Intro from "./Intro";
+import LinkBox from "./LinkBox";
+import resume from "./resume.json";
+
 function App() {
+  const info = resume;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Intro text={info.name}>
+        <AnimatedText text={info.job_description} />
+        <LinkBox info={info} />
+      </Intro>
     </div>
   );
 }

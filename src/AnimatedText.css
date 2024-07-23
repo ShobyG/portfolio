@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.animated-text {
+  font-size: 2rem; /* Default size */
+  font-family: Arial, sans-serif;
+  white-space: normal; /* Allow text to wrap */
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 1200px) {
+  .animated-text {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .animated-text {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .animated-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .animated-text {
+    font-size: 1.2rem;
+  }
+}
