@@ -8,14 +8,14 @@
   "profile_pic_url": "images/profile_pic.jpg",
   "summary": "Motivated and flexible recent Computer Science graduate with expertise in web development, machine learning and AI. Proficient in HTML, CSS, JavaScript, and React, with backend skills in Java and Python. Eager to apply technical skills and academic knowledge to dynamic projects and collaborative environments",
   "skills": {
-    "languages": {
-      "Java": "Intermediate",
-      "Python": "Advanced",
-      "JavaScript": "Intermediate",
-      "HTML": "Intermediate",
-      "Css": "Beginner",
-      "SQL": "Intermediate"
-    },
+    "languages": [
+      { "name": "Java", "level": "Intermediate" },
+      { "name": "Python", "level": "Advanced" },
+      { "name": "JavaScript", "level": "Intermediate" },
+      { "name": "HTML", "level": "Intermediate" },
+      { "name": "CSS", "level": "Beginner" },
+      { "name": "SQL", "level": "Intermediate" }
+    ],
     "frameworks": [
       "React",
       "Django",

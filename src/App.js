@@ -25,7 +25,11 @@ function App() {
           />
         </section>
         <section>
-          <Skills info={info} />
+          <Skills
+            languages={info.skills.languages}
+            frameworks={info.skills.frameworks}
+            libraries={info.skills.libraries}
+          />
         </section>
       </div>
     </div>
