@@ -15,7 +15,7 @@ code {
 .intro {
   position: relative;
   width: 100%;
-  height: 20%;
+  height: 20em;
   background-image: url("../public/images/introbox.jpg");
   background-size: cover;
   background-position: center;
@@ -43,4 +43,27 @@ code {
 
 .link-box a:hover {
   text-decoration: underline;
+}
+
+.summary-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  width: 75%;
+  padding-left: 10%;
+}
+
+.summary-image {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  border-radius: 50%; /* Make the image rounded */
+  margin-right: 1rem; /* Space between image and text */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.summary-text {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  color: #333; /* Text color */
+  font-family: Arial, sans-serif;
 }
