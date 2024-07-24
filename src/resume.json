@@ -6,5 +6,24 @@
   "gitHub_url": "https://github.com/ShobyG",
   "resume_url": "https://drive.google.com/file/d/1bZhbHf0ma3ZoNPhxUBWtgbl22ikOFue1/view?usp=sharing",
   "profile_pic_url": "images/profile_pic.jpg",
-  "summary": "Motivated and flexible recent Computer Science graduate with expertise in web development, machine learning and AI. Proficient in HTML, CSS, JavaScript, and React, with backend skills in Java and Python. Eager to apply technical skills and academic knowledge to dynamic projects and collaborative environments"
+  "summary": "Motivated and flexible recent Computer Science graduate with expertise in web development, machine learning and AI. Proficient in HTML, CSS, JavaScript, and React, with backend skills in Java and Python. Eager to apply technical skills and academic knowledge to dynamic projects and collaborative environments",
+  "skills": {
+    "languages": {
+      "Java": "Intermediate",
+      "Python": "Advanced",
+      "JavaScript": "Intermediate",
+      "HTML": "Intermediate",
+      "Css": "Beginner",
+      "SQL": "Intermediate"
+    },
+    "frameworks": [
+      "React",
+      "Django",
+      "PySPark",
+      "TensorFlow",
+      "NVIDIA Merlin",
+      "Flask"
+    ],
+    "libraries": ["numpy", "pandas", "NvTabular", "matplotlib"]
+  }
 }

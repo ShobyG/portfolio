@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,11 +13,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 .intro {
   position: relative;
   width: 100%;
-  height: 20em;
+  height: 200px;
   background-image: url("../public/images/introbox.jpg");
   background-size: cover;
   background-position: center;
@@ -25,7 +26,6 @@ code {
   justify-content: center;
   align-items: center;
   color: rgb(20, 12, 12);
-  padding: 1rem;
   box-sizing: border-box;
 }
 
@@ -55,15 +55,84 @@ code {
 }
 
 .summary-image {
-  width: 150px; /* Adjust the width as needed */
-  height: 150px; /* Adjust the height as needed */
-  border-radius: 50%; /* Make the image rounded */
-  margin-right: 1rem; /* Space between image and text */
-  object-fit: cover; /* Ensure the image covers the entire area */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  object-fit: cover;
 }
 
 .summary-text {
   font-size: 1.5rem; /* Adjust the font size as needed */
   color: #333; /* Text color */
   font-family: Arial, sans-serif;
+}
+
+.my-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 15%;
+  margin-top: 1em;
+  margin-left: 2px;
+  background-color: #343a40;
+  z-index: 1000; /* Ensure navbar is on top of other content */
+  border-radius: 10%;
+  justify-items: center;
+}
+
+.my-navbar .navbar-collapse {
+  flex-grow: unset;
+}
+
+.navbar.bg-dark {
+  background-color: #6c4a6c !important;
+}
+
+.navbar-nav {
+  flex-direction: column;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  background-color: #5a285b;
+  border-radius: 5px;
+}
+
+.App {
+  display: flex;
+  margin: 0; /* Ensure no margin on the body or container */
+  padding: 0; /* Ensure no padding on the body or container */
+}
+
+.content {
+  margin-left: 200px; /* Ensure the content starts right after the navbar */
+  padding: 2rem;
+  width: calc(100% - 200px);
+}
+
+.section {
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 991.98px) {
+  .my-navbar {
+    width: 100%;
+    height: auto;
+    position: relative; /* Allow it to expand in a non-fixed way on small screens */
+  }
+
+  .content {
+    margin-left: 0;
+    width: 100%;
+  }
 }
