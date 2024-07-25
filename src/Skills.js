@@ -1,6 +1,11 @@
 import React from "react";
 
-export default function Skills({ languages, frameworks, libraries }) {
+export default function Skills({
+  languages,
+  frameworks,
+  libraries,
+  certification,
+}) {
   console.log("here");
   console.log(frameworks);
   return (
@@ -27,6 +32,14 @@ export default function Skills({ languages, frameworks, libraries }) {
         <ul>
           {libraries.map((library) => (
             <li key={library}>{library}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="skills-section">
+        <h3>Certification:</h3>
+        <ul>
+          {certification.map((certificate) => (
+            <li key={certificate}>{certificate}</li>
           ))}
         </ul>
       </div>

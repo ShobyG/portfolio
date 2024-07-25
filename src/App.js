@@ -5,6 +5,7 @@ import resume from "./resume.json";
 import Summary from "./Summar";
 import MyNavbar from "./MyNavbar";
 import Skills from "./Skills";
+import Education from "./Education";
 
 function App() {
   const info = resume;
@@ -29,7 +30,11 @@ function App() {
             languages={info.skills.languages}
             frameworks={info.skills.frameworks}
             libraries={info.skills.libraries}
+            certification={info.skills.certificates}
           />
+        </section>
+        <section>
+          <Education />
         </section>
       </div>
     </div>

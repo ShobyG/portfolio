@@ -4,7 +4,7 @@
   "job_description": "Recent CS grad with AI focus, skilled in web dev, algorithms",
   "linkedIn_url": "https://www.linkedin.com/in/shobygnanasekaran/",
   "gitHub_url": "https://github.com/ShobyG",
-  "resume_url": "https://drive.google.com/file/d/1bZhbHf0ma3ZoNPhxUBWtgbl22ikOFue1/view?usp=sharing",
+  "resume_url": "https://drive.google.com/file/d/1VcHtPNMBmR4lSxAnr84GMkMoP1K11on0/view?usp=drive_link",
   "profile_pic_url": "images/profile_pic.jpg",
   "summary": "Motivated and flexible recent Computer Science graduate with expertise in web development, machine learning and AI. Proficient in HTML, CSS, JavaScript, and React, with backend skills in Java and Python. Eager to apply technical skills and academic knowledge to dynamic projects and collaborative environments",
   "skills": {
@@ -24,6 +24,30 @@
       "NVIDIA Merlin",
       "Flask"
     ],
-    "libraries": ["numpy", "pandas", "NvTabular", "matplotlib"]
-  }
+    "libraries": ["numpy", "pandas", "NvTabular", "matplotlib"],
+    "certificates": ["AWS Certified Cloud Practitioner (Feb 2024)"]
+  },
+  "education": [
+    {
+      "deg_name": "Master of Science in Computer Science",
+      "school_name": "University of Wisconsin, Milwaukee, WI",
+      "start_time": "09-2022",
+      "end_time": "05-2024",
+      "gpa": "4.0/4.0"
+    },
+    {
+      "deg_name": "Graduate Certificate in Software Development Engineering Program",
+      "school_name": "University of Washington, Tacoma, WA",
+      "start_time": "09-2021",
+      "end_time": "06-2024",
+      "gpa": "4.0/4.0"
+    },
+    {
+      "deg_name": "Graduate Certificate in Software Development Engineering Program",
+      "school_name": "University of Washington, Tacoma, WA",
+      "start_time": "09-2021",
+      "end_time": "06-2024",
+      "gpa": "4.0/4.0"
+    }
+  ]
 }
