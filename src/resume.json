@@ -27,27 +27,58 @@
     "libraries": ["numpy", "pandas", "NvTabular", "matplotlib"],
     "certificates": ["AWS Certified Cloud Practitioner (Feb 2024)"]
   },
-  "education": [
+  "education_and_work": [
     {
+      "type": "school",
+      "deg_name": "Fellowship with Headstarter",
+      "school_name": "Building 5 Projects in 5 weeks",
+      "start_time": "Jul-2024",
+      "end_time": "Present"
+    },
+    {
+      "type": "school",
       "deg_name": "Master of Science in Computer Science",
       "school_name": "University of Wisconsin, Milwaukee, WI",
-      "start_time": "09-2022",
-      "end_time": "05-2024",
+      "start_time": "Sep-2022",
+      "end_time": "Jun-2024",
       "gpa": "4.0/4.0"
     },
     {
+      "type": "work",
+      "job_title": "Computer Science Teaching Assistant",
+      "company_name": "University of Wisconsin, Milwaukee",
+      "start_time": "Jan-2024",
+      "end_time": "Jun-2024"
+    },
+    {
+      "type": "school",
       "deg_name": "Graduate Certificate in Software Development Engineering Program",
       "school_name": "University of Washington, Tacoma, WA",
-      "start_time": "09-2021",
-      "end_time": "06-2024",
+      "start_time": "Sep-2021",
+      "end_time": "Jul-2024",
       "gpa": "4.0/4.0"
     },
     {
-      "deg_name": "Graduate Certificate in Software Development Engineering Program",
-      "school_name": "University of Washington, Tacoma, WA",
-      "start_time": "09-2021",
-      "end_time": "06-2024",
-      "gpa": "4.0/4.0"
+      "type": "work",
+      "job_title": "Level2 SAN Administration and Support Engineer",
+      "company_name": "IBM India Pvt, India",
+      "start_time": "Aug-2015",
+      "end_time": "Jun-2017"
+    },
+    {
+      "type": "work",
+      "job_title": "Level 1 Remote Technical Support/Storage Administrator",
+      "company_name": "Wipro Technologies, India",
+      "start_time": "Jul-2013",
+      "end_time": "Aug-2015"
+    },
+    {
+      "type": "school",
+      "deg_name": "Bachelor of Electrical and Electronics Engineering",
+      "school_name": "Jeppiaar Engineering College, Chennai, India",
+      "start_time": "Aug-2009",
+      "end_time": "May-2013",
+      "gpa": "8.48/10.0"
     }
   ]
 }
