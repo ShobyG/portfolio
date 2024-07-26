@@ -1,7 +1,10 @@
+import React from "react";
+
 export default function ProjectBox({ selectedProject, setSelectedProject }) {
   function handleClose() {
     setSelectedProject(null);
   }
+
   return (
     <div className="selectedProject">
       <button onClick={handleClose} className="close-button">
@@ -21,9 +24,9 @@ export default function ProjectBox({ selectedProject, setSelectedProject }) {
       </ul>
       <h4>Project Description</h4>
       <ul>
-        {selectedProject.Description.map((tech) => (
-          <li key={tech} className="tech">
-            {tech}
+        {selectedProject.Description.map((desc) => (
+          <li key={desc} className="tech">
+            {desc}
           </li>
         ))}
       </ul>
