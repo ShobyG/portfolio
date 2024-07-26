@@ -11,7 +11,10 @@ export default function Projects({ projects, setSelectedProject }) {
           onClick={() => openProject(project)}
           key={project.name}
         >
-          <img src={project.image_url} alt="Shoby Gnanasekaran's project" />
+          <img
+            src={`${process.env.PUBLIC_URL}/${project.image_url}`}
+            alt="Shoby Gnanasekaran's project"
+          />
           <h5> {project.name} </h5>
         </div>
       ))}

@@ -13,7 +13,10 @@ export default function ProjectBox({ selectedProject, setSelectedProject }) {
       <h3>
         Project Name: {selectedProject.name} ({selectedProject.time})
       </h3>
-      <img src={selectedProject.image_url} alt="Shoby Gnanasekaran's project" />
+      <img
+        src={`${process.env.PUBLIC_URL}/${selectedProject.image_url}`}
+        alt="Shoby Gnanasekaran's project"
+      />
       <h4> Built Using:</h4>
       <ul>
         {selectedProject.Technologies.map((tech) => (
