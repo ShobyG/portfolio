@@ -80,5 +80,66 @@
       "end_time": "May-2013",
       "gpa": "8.48/10.0"
     }
+  ],
+  "projects": [
+    {
+      "name": "The Cook Book",
+      "image_url": "images/thecookbook.jpg",
+      "Technologies": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Python",
+        "Django",
+        "AWS S3 Static hosting",
+        "AWS EC2 Linux Server - API Endpoints"
+      ],
+      "Description": [
+        "The cook book is a food recipe website that allows the users to search for their favorite food recipe.",
+        "It is a Single Page Application, that displays various food recipes using React for the front end and Django for the backend database server.",
+        "The project aims to showcase the seamless integration of a RESTful API with a modern frontend framework, providing users with features to filter and search for recipes and add reviews for each recipe."
+      ],
+      "time": "Jul 2024"
+    },
+    {
+      "name": "Sea Animal Classification",
+      "image_url": "images/image_classifier.jpg",
+      "Technologies": [
+        "TensorFlow CNN",
+        "VGG16",
+        "HTML",
+        "CSS",
+        "Python",
+        "Flask"
+      ],
+      "Description": [
+        "Simple Python flask application that uses the fine tuned cnn model to predict sea animals.",
+        "The model can classify with an accuracy of 0.98."
+      ],
+      "time": "Jan 2024"
+    },
+    {
+      "name": "Session Based Movie Recommendation System",
+      "image_url": "images/movie_recommendation.jpg",
+      "Technologies": [
+        "Transformer4Rec GRU",
+        "Transformer4Rec XLNET",
+        "Tensorflow Recommende GRU",
+        "HTML",
+        "CSS",
+        "Python",
+        "Flask",
+        "pandas",
+        "NvTabular",
+        "numpy",
+        "cudf"
+      ],
+      "Description": [
+        "Simple Python flask application that uses the fine tuned cnn model to predict sea animals.",
+        "The model can classify with an accuracy of 0.98."
+      ],
+      "time": "Dec 2023"
+    }
   ]
 }
