@@ -136,32 +136,42 @@
         "cudf"
       ],
       "Description": [
-        "Simple Python flask application that uses the fine tuned cnn model to predict sea animals.",
-        "The model can classify with an accuracy of 0.98."
+        "Developed a web application with a Tensorflow Recommender-based model that provides movie recommendations based on the movies liked by the user in the current session.",
+        "Training and test are done on Google Colaboratory - T4 GPU."
       ],
       "time": "Dec 2023"
     },
     {
-      "name": "Session Based Movie Recommendation System",
-      "image_url": "images/movie_recommendation.jpg",
+      "name": "Binge Planner",
+      "image_url": "images/binge_planner.jpg",
       "Technologies": [
-        "Transformer4Rec GRU",
-        "Transformer4Rec XLNET",
-        "Tensorflow Recommende GRU",
+        "IMDB API",
+        "Calender API",
+        "Flask",
         "HTML",
         "CSS",
         "Python",
         "Flask",
-        "pandas",
-        "NvTabular",
-        "numpy",
-        "cudf"
+        "JavaScript",
+        "Nginx",
+        "Docker",
+        "AWS Ec2 Ubuntu"
       ],
       "Description": [
-        "Simple Python flask application that uses the fine tuned cnn model to predict sea animals.",
-        "The model can classify with an accuracy of 0.98."
+        "Created a web application that allows the user to search for their favorite movie/ series and add it to their calendar",
+        " Parallel processing of API queries using threading library improved the response speed by 50%"
       ],
-      "time": "Dec 2023"
+      "time": "Jun 2022"
+    },
+    {
+      "name": "Online Ticker Log",
+      "image_url": "images/ticket_log.jpg",
+      "Technologies": ["Django", "Python", "ReplIt"],
+      "Description": [
+        "The web app allows the users to keep track of their parking tickets",
+        "The user can filter based on the date and place to view their tickets"
+      ],
+      "time": "Aug 2023"
     }
   ]
 }
