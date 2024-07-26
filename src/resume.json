@@ -140,6 +140,28 @@
         "The model can classify with an accuracy of 0.98."
       ],
       "time": "Dec 2023"
+    },
+    {
+      "name": "Session Based Movie Recommendation System",
+      "image_url": "images/movie_recommendation.jpg",
+      "Technologies": [
+        "Transformer4Rec GRU",
+        "Transformer4Rec XLNET",
+        "Tensorflow Recommende GRU",
+        "HTML",
+        "CSS",
+        "Python",
+        "Flask",
+        "pandas",
+        "NvTabular",
+        "numpy",
+        "cudf"
+      ],
+      "Description": [
+        "Simple Python flask application that uses the fine tuned cnn model to predict sea animals.",
+        "The model can classify with an accuracy of 0.98."
+      ],
+      "time": "Dec 2023"
     }
   ]
 }
