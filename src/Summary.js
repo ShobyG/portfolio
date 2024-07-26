@@ -6,7 +6,7 @@ export default function Summary({ profilePicUrl, summary }) {
       <h2 className="summary-title">About Me</h2>
       <div className="summary-details">
         <img
-          src={profilePicUrl}
+          src={`${process.env.PUBLIC_URL}/${profilePicUrl}`}
           alt="Shoby Gnanasekaran"
           className="summary-image"
         />
