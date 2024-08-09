@@ -83,6 +83,28 @@
   ],
   "projects": [
     {
+      "name": "The Inventory Tracker",
+      "image_url": "images/inventory_tracker.jpg",
+      "Technologies": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "TensorFlow JS",
+        "Material UI",
+        "Python",
+        "TensorFlow CNN",
+        "AWS S3 Static hosting",
+        "AWS Cloud Front"
+      ],
+      "Description": [
+        "Developed an easy pantry tracking application that allows the user to add, and query items to the inventory",
+        "It is a Single Page Application, that displays various pantry items.",
+        "It has a built in fine turned VGG16 image classifier pushed to the client side making the classification really fast.",
+        "The project aims to showcase the seamless integration of a Machine Learning Model with a modern frontend framework, providing users with the ability to scan items using camera, and update the item count in the inventory."
+      ],
+      "time": "Jul 2024"
+    },
+    {
       "name": "The Cook Book",
       "image_url": "images/thecookbook.jpg",
       "Technologies": [
